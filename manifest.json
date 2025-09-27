@@ -5,5 +5,12 @@
   "icons": {
     "48": "images/icon-48.png",
     "96": "images/icon-96.png"
-  }
+  },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "action": {},
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["http://*/*", "https://*/*"]
 }
